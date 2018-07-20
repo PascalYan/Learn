@@ -14,28 +14,26 @@ public class LockWaitAndNotify {
 
     static Lock lock = new ReentrantLock();
     static Condition condition = lock.newCondition();
-    static boolean flag = false;
+
+    //保证可见性
+    static volatile boolean flag = false;
 
     public static void main(String[] args) {
 
         new Thread(new Runnable() {
             @Override
             public void run() {
-
                 lock.lock();
                 try {
                     while (!flag) {
                         condition.await();
                     }
-
                     System.out.println("do something");
-
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 } finally {
                     lock.unlock();
                 }
-
             }
         }).start();
 
@@ -43,7 +41,6 @@ public class LockWaitAndNotify {
         new Thread(new Runnable() {
             @Override
             public void run() {
-
                 lock.lock();
                 try {
                     TimeUnit.SECONDS.sleep(5);
@@ -54,7 +51,6 @@ public class LockWaitAndNotify {
                 } finally {
                     lock.unlock();
                 }
-
             }
         }).start();
 
