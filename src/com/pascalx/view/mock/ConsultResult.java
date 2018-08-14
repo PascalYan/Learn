@@ -1,4 +1,4 @@
-package com.pascalx.view.rpc;
+package com.pascalx.view.mock;
 
 public class ConsultResult {
 
