@@ -1,4 +1,4 @@
-package com.pascalx.view.rpc;
+package com.pascalx.view.alipay.rpc;
 
 /**
  * @author yanghui

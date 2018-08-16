@@ -1,9 +1,9 @@
-package com.pascalx.view.test;
+package com.pascalx.view.alipay.test;
 
 
-import com.pascalx.view.service.Impl.PaymentServiceCountDownLatchImpl;
-import com.pascalx.view.service.Impl.PaymentServiceFutureImpl;
-import com.pascalx.view.service.PaymentService;
+import com.pascalx.view.alipay.service.Impl.PaymentServiceCountDownLatchImpl;
+import com.pascalx.view.alipay.service.Impl.PaymentServiceFutureImpl;
+import com.pascalx.view.alipay.service.PaymentService;
 
 /**
  * @author yanghui

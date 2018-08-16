@@ -1,4 +1,4 @@
-package com.pascalx.view.mock;
+package com.pascalx.view.alipay.mock;
 
 import java.util.concurrent.TimeUnit;
 

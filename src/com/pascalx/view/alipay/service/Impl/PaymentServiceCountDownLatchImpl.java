@@ -1,7 +1,7 @@
-package com.pascalx.view.service.Impl;
+package com.pascalx.view.alipay.service.Impl;
 
-import com.pascalx.view.rpc.PaymentRpcService;
-import com.pascalx.view.rpc.PaymentRpcServiceImpl;
+import com.pascalx.view.alipay.rpc.PaymentRpcService;
+import com.pascalx.view.alipay.rpc.PaymentRpcServiceImpl;
 
 import java.util.ArrayList;
 import java.util.Collections;

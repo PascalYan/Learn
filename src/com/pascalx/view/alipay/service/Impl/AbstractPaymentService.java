@@ -1,6 +1,6 @@
-package com.pascalx.view.service.Impl;
+package com.pascalx.view.alipay.service.Impl;
 
-import com.pascalx.view.service.PaymentService;
+import com.pascalx.view.alipay.service.PaymentService;
 
 import java.util.Arrays;
 import java.util.List;

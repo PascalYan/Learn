@@ -1,8 +1,8 @@
-package com.pascalx.view.rpc;
+package com.pascalx.view.alipay.rpc;
 
-import com.pascalx.view.mock.ConsultResult;
-import com.pascalx.view.mock.PaymentRemoteService;
-import com.pascalx.view.mock.PaymentRemoteServiceLocalMockImpl;
+import com.pascalx.view.alipay.mock.ConsultResult;
+import com.pascalx.view.alipay.mock.PaymentRemoteService;
+import com.pascalx.view.alipay.mock.PaymentRemoteServiceLocalMockImpl;
 
 /**
  * @author yanghui
